@@ -34,6 +34,7 @@ runs:
           case "${arch}" in
             amd64)   os="ubuntu-24.04" ;;
             aarch64) os="ubuntu-24.04-arm" ;;
+            riscv64) os="ubuntu-24.04-riscv" ;;
             *)
               echo "::error::Unsupported architecture: ${arch}. Supported values: amd64, aarch64"
               exit 1

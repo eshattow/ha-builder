@@ -28,6 +28,7 @@ jobs:
     name: Publish builder
     needs: init
     runs-on: ubuntu-latest
+    if: false
     permissions:
       contents: read
       id-token: write
